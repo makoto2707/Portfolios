@@ -39,3 +39,14 @@ h1 {
     position: relative;
     top: 35%;
 }
+
+@media screen and (max-width: 480px) {
+    .back-b {
+        height: 35px;
+        width: 35px;
+    }
+    h1 {
+        top: 45%;
+        font-size: 30px;
+    }
+}
